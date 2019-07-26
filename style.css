@@ -1,0 +1,277 @@
+/* font-familly : Monaco */
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+body{
+    background-image:linear-gradient(-90deg,rgb(14, 13, 13) 100%, #758b22 100%);
+    margin:auto;
+}
+
+header{
+    display:flex;
+    z-index: 0;
+    margin:0 auto;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    height:10vh;
+    box-shadow: 0 6px 8px rebeccapurple;
+}
+
+.dreamcar p{
+    margin:2.3vh 35px;
+    font-size:35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    letter-spacing: 1px;
+    color:gold;
+}
+
+.pcontainer p{
+    padding:30vh;
+    position: relative;
+    font-size:35px;
+    text-align:center;
+    text-transform: uppercase;
+    font-family:inherit;
+    color:rgb(247, 2, 2);
+}
+.dreamcarheader li{
+    font-size:20px;
+    display:inline-block;
+    margin:6.7vh 23px;
+}
+.dreamcarheader li:last-child{
+    padding-right:15px;
+}
+
+.dreamcarheader a{
+    text-decoration: none;
+    color:gold;
+}
+.dreamcarheader a:hover{
+    color:red;
+}
+.before-container{
+    top:10px;
+    position: relative;
+}
+.img-container{
+    position: relative;
+    height:80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/showroom.jpeg)
+}
+.tengah{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+.tengah a{
+    color:red;
+}
+.tengah a:hover{
+    color:gold;
+}
+.tengah p{
+    font-size:50px;
+    color:red;
+    font-family: fantasy;
+    text-align: center;
+    margin:70vh 0;
+}
+.logolamborghini{
+    height:800px;
+    width: 100%;
+    background-size: cover;
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-image: url(mobil/lamborghini/logolambo.jpg);
+}
+.logoferrari{
+    width:100%;
+    height:800px;
+    background-size:cover;
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/ferrari/Ferrari-symbol-640x460.jpg);
+}
+.logoaudi{
+    height:800px;
+    width:100%;
+    background-size:cover;
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/audi/wp1831047.jpg);
+}
+.logomercy{
+    height:800px;
+    width:100%;
+    background-size:cover;
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/mercedes-benz/logo-Mercedes-Benz.png);
+}
+.logoporsche{
+    height:800px;
+    width:100%;
+    background-size:cover;
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/porsche/porsche-normal.jpg);
+}
+.bawah{
+    width: 75%;
+    margin:0 auto;
+    position: relative;
+    top:2.5vh;
+}
+.bawah h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:gold;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.bawah p{
+    color:gold;
+    font-size:25px;
+    text-align: center;
+}
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foot p{
+    padding:10px;
+    font-size: 20px;
+    text-align: left;
+    margin:20px 10px;
+    text-decoration: 0;
+    color:gold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer li{
+    margin:20px 20px;
+    font-size: 25px;
+    color:red;
+    display:inline-block;
+    letter-spacing: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer li:last-child{
+    padding-right: 20px;
+}
+.footer a{
+    color: green;
+}
+.footer a:hover{
+    color:gold;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* style lamborghini*/
+
+
+.img-container1{
+    position: relative;
+    height:80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/lamborghini/logolambo.jpg)
+}
+
+.pcontainer1 p{
+    padding:30vh;
+    position: relative;
+    font-size:45px;
+    text-align:center;
+    text-transform: uppercase;
+    font-family:fantasy;
+    color:rgb(247, 2, 2);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* style ferrari*/
+
+.img-container2{
+    position: relative;
+    height:80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/ferrari/Ferrari-symbol-640x460.jpg);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* style audi*/
+
+
+.img-container3{
+    position: relative;
+    height:80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/porsche/porsche-normal.jpg);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* style audi*/
+
+
+.img-container4{
+    position: relative;
+    height:80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/mercedes-benz/logo-Mercedes-Benz.png);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* style audi*/
+
+
+.img-container5{
+    position: relative;
+    height:80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/audi/wp1831047.jpg);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+/* style audi*/
+
