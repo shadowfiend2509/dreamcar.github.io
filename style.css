@@ -1,5 +1,4 @@
 /* font-familly : Monaco */
-
 *{
     margin:0;
     padding:0;
@@ -189,4 +188,138 @@ footer{
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
-/* audi */
+/* Audi */
+
+
+.pcontainer1 p{
+    padding:10vh;
+    position: relative;
+    font-size:35px;
+    text-align:center;
+    font-family:inherit;
+    color:red;
+}
+.dreamcarheader1 li{
+    font-size:20px;
+    display:inline-block;
+    margin:6.7vh 23px;
+}
+.dreamcarheader1 li:last-child{
+    padding-right:15px;
+}
+
+.dreamcarheader1 a{
+    text-decoration: none;
+    color:gold;
+}
+.dreamcarheader1 a:hover{
+    color:red;
+}
+.before-container1{
+    top:10px;
+    position: relative;
+}
+.img-container1{
+    position: relative;
+    height:70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/audi/wp1831047.jpg);
+}
+/* Style the top navigation bar */
+.topnav {
+    font-size: 25px;
+    margin:10px 0;
+    overflow: hidden;
+    background-color: none;
+    font-family: fantasy;
+}
+.topnav a:first-child{
+    padding-right:35px;
+}
+  
+  /* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav h3{
+      margin:14px 0;
+      color:gold;
+      text-align:right;
+}
+  
+  /* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: red;
+  }
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/* Ferrari */
+
+  .img-container2{
+    position: relative;
+    height:70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/ferrari/Ferrari-symbol-640x460.jpg);
+  }
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/* Lamborghini */
+
+
+.img-container3{
+    position: relative;
+    height:70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/lamborghini/logolambo.jpg);
+  }
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/* Lamborghini */
+
+
+.img-container4{
+    position: relative;
+    height:70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/mercedes-benz/logo-Mercedes-Benz.png);
+  }
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/* porsche */
+
+
+.img-container5{
+    position: relative;
+    height:70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(mobil/porsche/porsche-normal.jpg);
+  }
+
+  /*done*/
