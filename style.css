@@ -720,3 +720,47 @@ table {
     background-position-y: -250px;
 }
 
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Lamborghini Huracan */
+
+  .img-containerhuracan{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/lamborghini/huracan/lamborghini-huracan-dashboard-view-550290.jpg);
+    background-position-y: -250px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Lamborghini Urus */
+
+  .img-containerurus{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/lamborghini/urus/lamborghini-urus-dashboard-view-503277.jpg);
+    background-position-y: -300px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Lamborghini aventador */
+
+  .img-containeraventador{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/lamborghini/aventador/lamborghini-aventador-dashboard-view-348215.jpg);
+    background-position-y: -250px;
+}
+
