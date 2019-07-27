@@ -5,6 +5,12 @@
     text-decoration: none;
 }
 
+/* untuk pickure */
+.imageallaudi img{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
 body{
     background-image:linear-gradient(-90deg,rgb(14, 13, 13) 100%, #758b22 100%);
     margin:auto;
@@ -159,7 +165,11 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
-
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
 .foot p{
     padding:10px;
     font-size: 20px;
@@ -413,7 +423,8 @@ footer{
     position: relative;
     background-attachment: fixed;
     background-position: center;
-    background-position-y: 470px;
+    background-size: cover;
+    background-position-y: 170px;
     background-repeat: no-repeat;
     background-image: url(mobil/lamborghini/urus/3-lamborghini-urus-2019-rt-headlights.jpg);
 }
@@ -500,4 +511,166 @@ footer{
     background-position-y: -150px;
     background-repeat: no-repeat;
     background-image: url(mobil/porsche/718/utamabg.jpg);
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* audiq3 */
+
+  .img-containerq3{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/audi/audiq3/audi-q3-dashboard-view-377245.jpg);
+    background-position-y: -150px;
+}
+.colomm{
+    position: relative;
+    margin:0 auto;
+    height:650px;
+    width:100%;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 2px 4px #758b22;
+}
+.colomm p{
+    font-size: 20px;
+}
+/* membagi 2 colom pada audiq3.html */
+.leftcolumn {   
+    float: left;
+    width: 50%;
+    background-color: none;
+    color:red;
+  }
+  .leftcolumn p{
+      font-size: 40px;
+  }
+  
+  /* Right column colom kanan */
+  .rightcolumn {
+    float: right;
+    width: 50%;
+    color:red;
+    background-color: none;
+    padding-left: 0;
+  }
+  .rightcolumn p{
+      font-size: 40px;
+  }
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*membuat table*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:gold;
+    letter-spacing: 1px;
+  }
+  
+  td, th {
+    border: none;
+    text-align: left;
+    padding: 8px;
+  }
+
+  /* column kiri untuk image */
+  .columnimg{
+      float: left;
+      width:100%;
+      height:auto;
+      display:flex;
+      flex-direction: row;
+      text-align: center;
+      background-position: center;
+  }
+.imageleft{
+    width:25%;
+    background-color: none;
+}
+/* image midldle */
+.imageright{
+    width: 50%;
+    background-color: none;
+}
+.imageright img{
+    width:500px;
+    height: 300px
+}
+.columnimg:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .image{
+      position: relative;
+  }
+  /* atur kelas bawah */
+
+  .imgleftbottom{
+      height:500px;
+      background-color: none;
+      color:red;
+      font-size: 20px; 
+  }
+  .imagebtm{
+      position: relative;
+      text-align:center;
+  }
+  .imagebtm img{
+      background-attachment: inherit;
+      height:120px;
+      width:200px;
+  }
+  .imagebtm li{
+      padding:none;
+      display:inline-block;
+  }
+
+  /*------------------------------------------------------------------------------------------------------------------------------*/
+  /* audirs5 */
+
+  .img-containerrs5{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/audi/audirs5/utamabg.jpg);
+    background-position-y: -300px;
+}
+.pcontainerrs5 h1{
+    text-align:center;
+    padding:260px;
+    font-size: 35px;
+    color:red;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* audi r8 */
+
+  .img-containerr8{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/audi/audiR8/utamabg.jpg);
+    background-position-y: -100px;
 }
