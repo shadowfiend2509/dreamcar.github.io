@@ -674,3 +674,49 @@ table {
     background-image: url(mobil/audi/audiR8/utamabg.jpg);
     background-position-y: -100px;
 }
+
+  /*------------------------------------------------------------------------------------------------------------------------------*/
+  /* ferrari 812 */
+
+  .img-container812{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/ferrari/812Superfast/ferrari-812-superfast-dashboard-view-808042.jpg);
+    background-position-y: -100px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* ferrari gyc4lussoT */
+
+  .img-containergtc{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/ferrari/GTC4LussoT/ferrari-gtc4lusso-t-dashboard-view-716051\ 10.29.01.jpg);
+    background-position-y: -150px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* ferrari 488 Spider */
+
+  .img-container488{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/ferrari/488Spider/ferrari-488-spider-dashboard-view-466660.jpg);
+    background-position-y: -250px;
+}
+
