@@ -764,3 +764,17 @@ table {
     background-position-y: -250px;
 }
 
+/* img signup */
+
+
+.img-containersignup{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(./photo-1517779894653-4c49f68b4d66.jpeg);
+    background-position-y: -250px;
+}
