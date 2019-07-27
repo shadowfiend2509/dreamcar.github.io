@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Document</title>
+    <title>Sign Up Resgistration</title>
     <style>
         .pcontainer p{
             font-family: fantasy;
@@ -12,6 +12,51 @@
             font-style: oblique;
             letter-spacing: 2px;
         }
+        
+        .bagilayar{
+            width: 100%;
+            margin:10px 0;
+            display: flex;
+            flex-direction: row;
+            background-attachment: fixed;
+            background-image: url(./photo-1544829099-b9a0c07fad1a.jpeg);
+            background-position-y: 400px;
+            background-repeat: no-repeat;
+        }
+        .divinstagram{
+            width:50%;
+            float:right;
+            background-color: none;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(./lamborghini-huracan.jpg);
+        }
+        input[type=text],select{
+            width:225px;
+            margin:5px 67px;
+        }
+        input[type=email],select{
+            width: 225px;
+            margin:5px 102px;
+        }
+        input[type="password"],select{
+            width: 225px;
+            margin:2px 71px;
+        }
+        button{
+            width:200px;
+            background-color: antiquewhite;
+            color:black;
+        }
+        button:hover{
+            color:black;
+            background-color: gold;
+        }
+        select[type=favcar],select{
+            width:228px;
+            margin:5px 0;
+        }
+
     </style>
 </head>
 <body>
@@ -35,6 +80,46 @@
                     <p>Sign Up Now for Free</p>
                 </div>
             </div>
-            </section>
+        </section>
+    
+    <div class="bagilayar">
+        <div class="divform">
+            <form action="action.html">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fullname" placeholder="Full Name..."><br>
+                <label for="fpass">Password</label>
+                <input type="password" id="fpass" name="password" placeholder="Password..."><br>
+                <label for="femail">Email</label>
+                <input type="email" id="femail" name="email" placeholder="username@example.com"><br>
+
+                <label for="favcar">Favorite Brand Car</label>
+                    <select id="favcar" name="favcar">
+                        <option value="audi">Audi</option>
+                        <option value="ferrari">Ferrari</option>
+                        <option value="lamborghini">Lamborghini</option>
+                        <option value="Mercedes">Mercedes Benz</option>
+                        <option value="Porsche">Porsche</option>
+                    </select><br>
+                <label for="masukan">Masukan/Kritikan</label>
+                    <textarea type="text" name="masukan" rows="10" cols="30"></textarea><br>
+                    <button type="submit" value="submit" onclick="alert('Hai,Terima Kasih..')">Submit</button>
+
+            </form>
+        </div>
+        <div class="divinstagram">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="foot">
+            <p>Tugas Latihan Membuat Website<br>
+            Sumber: <a href="www.oto.com">Oto</a>
+                    <a href="www.google.com">Google</a></p>
+        </div>
+            <nav>
+                <ul>
+                    <li>Follow our  <a href="https://www.instagram.com/dreamcarr_/"> Instagram </a></li>
+                </ul>
+            </nav>
+    </footer>
 </body>
 </html>

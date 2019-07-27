@@ -775,6 +775,21 @@ table {
     background-attachment: fixed;
     opacity: .8;
     background-position: center;
-    background-image: url(./photo-1517779894653-4c49f68b4d66.jpeg);
+    background-image: url(./photo-1561199028-2d2feb2831d1.jpeg);
     background-position-y: -250px;
+}
+
+.divform {
+    width:50%;
+    position: relative;
+    color:gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:20px;
+}
+.divform h3{
+    font-size: 10px;
+    position: relative;
+}
+iframe{
+    background-color: red;
 }
