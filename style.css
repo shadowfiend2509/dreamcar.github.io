@@ -749,6 +749,7 @@ table {
     background-image: url(mobil/lamborghini/urus/lamborghini-urus-dashboard-view-503277.jpg);
     background-position-y: -300px;
 }
+
 /*------------------------------------------------------------------------------------------------------------------------------*/
   /* Lamborghini aventador */
 
@@ -763,6 +764,99 @@ table {
     background-image: url(mobil/lamborghini/aventador/lamborghini-aventador-dashboard-view-348215.jpg);
     background-position-y: -250px;
 }
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Mercedes Benz SLC-Class */
+
+  .img-containerslclass{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/mercedes-benz/SLC-Class/mercedes-benz-slc-class-passenger-seat-875695.jpg);
+    background-position-y: -250px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Mercedes Benz SL-class */
+
+  .img-containerslclass{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/mercedes-benz/SL-Class/mercedes-benz-sl-class-steering-wheel-119760.jpg);
+    background-position-y: -250px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Mercedes Benz AMG GT*/
+
+  .img-containeramg{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/mercedes-benz/AMG-GT/mercedes-benz-amg-gt-dashboard-view-617610.jpg);
+    background-position-y: -100px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Porsche 718 */
+
+  .img-container718{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/porsche/718/porsche-718-dashboard-view-834455.jpg);
+    background-position-y: -200px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Porsche Panamera */
+
+  .img-containerpanamera{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/porsche/panamera/porsche-panamera-dashboard-view-501744.jpg);
+    background-position-y: -200px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+  /* Porsche 911 */
+
+  .img-container911{
+    position: relative;
+    height:50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+    background-position: center;
+    background-image: url(mobil/porsche/911/rearporshe.jpg);
+    background-position-y: -400px;
+}
+
 
 /* img signup */
 
